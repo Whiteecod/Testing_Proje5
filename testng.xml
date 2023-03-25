@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/kubilayculha/IdeaProjects/Testing_Proje5">
+        <classes>
+            <class name="TestNGProje2.TestingProje">
+                <methods>
+                    <include name="LoginTest"/>
+                </methods>
+            </class>
+            <class name="Utlity.BaseDriver">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="Utlity.BaseDriverParameter">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
